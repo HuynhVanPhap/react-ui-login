@@ -1,0 +1,24 @@
+.button-wrapper {
+    width: inherit;
+    height: inherit;
+
+    &>.button-entity {
+        color: #FFF;
+        width: 100%;
+        background: violet;
+        padding: 10px;
+        border-radius: 6px;
+        border: 2px solid violet;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.25s ease;
+        text-transform: none;
+        line-height: 1.15;
+        margin: 0;
+        overflow: visible;
+
+        &:hover {
+            opacity: 0.75;
+        }
+    }
+}

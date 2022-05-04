@@ -1,0 +1,64 @@
+.signup {
+    width: inherit;
+    height: inherit;
+
+    &__title {
+        height: 25%;
+    }
+
+    &__form {
+        height: 70%;
+
+        &-input {
+            margin: 15px 0 15px 0; 
+        }
+
+        &-button {
+            padding: 2px 5px;
+            margin: 35px 0 0 0;
+        }
+
+        &-divider {
+            margin: 35px 0 5px 0;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+            padding: 0px 5px 0 5px;
+            color: rgba(58, 53, 65, 0.87);
+            
+            span::after {
+                background: blanchedalmond;
+                content: '';
+                height: 1px;
+                left: 50%;
+                margin-left: 20px;
+                position: absolute;
+                top: 50%;
+                width: 100%;
+            }
+    
+            span::before {
+            background: blanchedalmond;
+            content: '';
+            height: 1px;
+            margin-right: 20px;
+            position: absolute;
+            right: 50%;
+            top: 50%;
+            width: 100%;
+            }
+        }
+
+        &-guest {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 10px;
+
+            & > * > a {
+                text-decoration: none;
+                color: violet;
+            }
+        }
+    }
+}
